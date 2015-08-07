@@ -35,9 +35,10 @@ var link, video;
   video.controls= true;
 
 
-  jNode.after(video)
+  jNode.after(video);
+  jNode.remove();
   }
-}
+
 
 
 /*
@@ -50,6 +51,6 @@ var link, video;
   vid[b].onclick = vid[b].pause;
   
   }
-
-}
 */
+}
+
